@@ -5,7 +5,7 @@ body {
 
 #main {
     width: 1000px;
-    height: 800px;
+    height: 880px;
     background: #32beff;
     margin: 25px auto;
     border: solid 2px #ff3819;
@@ -28,11 +28,10 @@ p {
     font-family: Calibri, serif;
     font-size: 12pt;
     text-align: left;
-    text-indent: 48px;
     color: #2f2d2d
 }
 
 img {
-    opacity: 0.5;
+    opacity: 1;
 }
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase=
+        "https://github.com/bradstevanus1/latch"
+      href="latch_webstart.jnlp">
+    <information>
+        <title>The Latch game application</title>
+        <vendor>Brad Stevanus</vendor>
+        <icon href="icon.JPG"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="latch.jar"
+             main="true" />
+
+    </resources>
+    <application-desc
+            name="Latch game application"
+            main-class=
+                    "com.brad.latch"
+            width="300"
+            height="300">
+    </application-desc>
+    <update check="background"/>
+</jnlp>

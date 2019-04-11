@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" failures="0" skipped="0" tests="21" time="1.879">
+  <testsuite disabled="0" failures="0" name="v3/user/whoami with valid auth token" requestId="api-test-b333d46c-e599-455d-9014-6acd9dc8500c" skipped="0" tests="6" time="1.401">
+    <testcase name="Check for 200 response"/>
+    <testcase name="Check for 200 statusCode in meta statusCode"/>
+    <testcase name="validate response has keys meta and result keys "/>
+    <testcase name="Check for slower response time"/>
+    <testcase name="Check for no errors in the response result"/>
+    <testcase name="successful request"/>
+  </testsuite>
+  <testsuite disabled="0" failures="0" name="v3/user/whoami without valid auth token" requestId="api-test-7f5ab234-97d8-4dd2-a390-44c56730c604" skipped="0" tests="6" time="0.187">
+    <testcase name="Check correct message is provided "/>
+    <testcase name="Check for 401 response"/>
+    <testcase name="Check for 401 statusCode in meta statusCode"/>
+    <testcase name="Check for no errors in the response result"/>
+    <testcase name="Check for fast response time"/>
+    <testcase name="successful request"/>
+  </testsuite>
+  <testsuite disabled="0" failures="0" name="get authorization as qa+t" requestId="api-test-d726eb57-2f6f-47a8-b575-0e4a2d104555" skipped="0" tests="9" time="0.269">
+    <testcase name="validate response has keys "/>
+    <testcase name="Validate token returned"/>
+    <testcase name="Validate tokenType==Bearer "/>
+    <testcase name="Check for 200 response"/>
+    <testcase name="Check for 200 statusCode in meta statusCode"/>
+    <testcase name="validate response has keys meta and result keys "/>
+    <testcase name="Check for fast response time"/>
+    <testcase name="Check for no errors in the response result"/>
+    <testcase name="successful request"/>
+  </testsuite>
+</testsuites>

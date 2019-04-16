@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="6.0+" href="Latch.jnlp">
+<jnlp spec="6.0+" codebase="https://bradstevanus1.github.io" href="Latch.jnlp">
 
     <information>
         <title>The Latch game application</title>
@@ -10,14 +10,13 @@
 
     <resources>
         <!-- Application Resources -->
-        <j2se version="11+" href="http://java.sun.com/products/autodl/j2se"/>
+        <java version="1.8+"/>
         <jar href="Latch.jar" main="true"/>
-        <java version="11+"/>
     </resources>
 
     <application-desc
             name="Latch game application"
-            main-class="com.brad.latch">
+            main-class="com.brad.latch.Game">
     </application-desc>
 
     <update check="background"/>

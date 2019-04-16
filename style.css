@@ -4,15 +4,15 @@ body {
 }
 
 #main {
-    width: 1000px;
-    height: 880px;
     background: #32beff;
-    margin: 25px auto;
+    margin: 25px;
     border: solid 2px #ff3819;
+    padding: 0 20px 20px 20px;
 }
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
     font-family: "Times New Roman", monospace;
     font-size: 24pt;
     color: #a8ff7d;
@@ -25,13 +25,17 @@ hr {
 }
 
 p {
-    font-family: Calibri, serif;
+    font-family: "Times New Roman", serif;
     font-size: 12pt;
     text-align: left;
     color: #2f2d2d
 }
 
-img {
-    opacity: 1;
+a:hover {
+    color: red;
+}
+
+img:hover {
+    opacity: 0.5;
 }
 

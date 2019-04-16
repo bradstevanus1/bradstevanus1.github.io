@@ -26,7 +26,15 @@
   </p>
   <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
   <p>
-    Testing out JWS: <a href="Latch.jnlp">Launch Latch</a>
+    Play Latch using Java Web Start:<br>
+    <script src="https://www.java.com/js/deployJava.js"></script>
+    <script>
+        // Using JavaScript to get location of JNLP
+        // file relative to HTML page
+        var dir = location.href.substring(0, location.href.lastIndexOf('/')+1);
+        var url = dir + "Latch.jnlp";
+        deployJava.createWebStartLaunchButton(url, '1.7.0');
+    </script>
   </p>
 
   <hr>
